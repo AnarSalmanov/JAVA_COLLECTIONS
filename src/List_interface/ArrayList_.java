@@ -9,10 +9,14 @@ public class ArrayList_ {
 	public static void main(String[] args) {
 		
 		
-	/**
-	 * ArrayList - it is array based collection.ArrayList class implements to List interface
-	 * Miantains the added elements by their order. ArrayList allows null and duplicate values.
+	/** ----------------- ArrayList -------------------------
+	 * Internally uses Array
+     * ArrayList class implements to List interface
+	 * Maintains the added elements by their insertion order.
+     * ArrayList allows null and duplicate values.
 	 * Accepts only object type not primitives.
+     * Faster than LinkedList and Vector
+     * Non-tread safe and synchronized.
 	 */
 
 	

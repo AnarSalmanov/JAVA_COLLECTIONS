@@ -6,10 +6,11 @@ import java.util.Map;
 public class HashMap_ {
 	
 	
-	/**                     HASHMAP
+	/** ------------------------ HashMap ----------
 	 * HashMap class implementing Map interface.
 	 * Does not allow duplicate keys.
-	 * Allows only 1 null key, any number null value.If try to add 2nd null key , then compiler will compile.
+	 * Allows only 1 null key, any number null value.
+     * If try to add 2nd null key , then compiler will compile but will overrithe the existing one.
 	 * Map's key is case sensitive.
 	 * If key is not there, will return null.
 	 */
@@ -38,7 +39,7 @@ public class HashMap_ {
 		items.remove("cheese");
 		System.out.println(items);  // -> cheese removed with its value
 		 
-		// .conatainsKey(key) - checks wether Map contains certain key or not, returns boolean
+		// .containsKey(key) - checks wether Map contains certain key or not, returns boolean
 		System.out.println(items.containsKey("cucumber")); // --> false
 		
 		// .replace(key , newValue) - replaces current value of given key to the new one.

@@ -2,7 +2,7 @@ package CollectionFramework_intro;
 
 import java.util.*;
 
-public class Converting_btw_List_Set {
+public class Convert_List_Set {
     /**
      * Converting List to Set and opposite happens using data structures constructors.
      */

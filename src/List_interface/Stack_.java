@@ -8,7 +8,7 @@ public class Stack_ {
 
     /**
      * -------------------- Stack ----------------
-     * Stack is a class inherits from Vector class. (extends Vector)
+     * Stack is a class extends Vector class. (Vector implements to List interface)
      * Works based on LIFO, Last in First Out.
      */
 
@@ -18,6 +18,7 @@ public class Stack_ {
         Vector<Integer> numberList2 = new Stack<>();
         List<String> names = new Stack<>();
         names.add("Xose");
+        names.add("Anar");
         System.out.print(numberList + "\n" + names);
 
 

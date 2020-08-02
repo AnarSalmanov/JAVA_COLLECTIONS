@@ -11,6 +11,7 @@ public class TreeSet_ {
      * TreeSet internally uses TreeMap's key part.
      * TreeSet maintains the added items by ascending order.
      * TreeSet doesn't allow any null values and duplicates.
+     * If you add null values into that it will throw an NullPointer exception
      */
 
 
@@ -20,7 +21,8 @@ public class TreeSet_ {
         SortedSet<Integer> sorted = new TreeSet<>();
         sorted.add(5);
         sorted.add(7);
-        System.out.println(sorted); // Will sort
+       // sorted.add(null); // Will
+        System.out.println(sorted);
 
 
     }

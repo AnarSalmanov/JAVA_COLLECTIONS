@@ -19,6 +19,8 @@ public class Hashset_ {
     public static void main(String[] args) {
         Set<Integer> set1 = new HashSet<>();
         set1.add(10);
+        set1.add(null);
+        set1.add(null);
         System.out.println(set1);
 
         // Converting List to Set

@@ -15,6 +15,9 @@ public class LinkedHashSet_ {
     public static void main(String[] args) {
         LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>();
         Set<String> set = new LinkedHashSet<>();
+        set.add(null);
+        set.add(null);
+        System.out.println(set);
     }
 
 

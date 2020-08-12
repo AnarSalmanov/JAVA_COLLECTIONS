@@ -204,7 +204,7 @@ public class ArrayList_ {
 			
 			//Double the value of index  2
 			number.set(2, number.get(2)*2);
-			System.out.println(number); //4 -> 8
+			System.out.println(number); //4
 			
 			
 			

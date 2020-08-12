@@ -6,7 +6,7 @@ import java.util.Set;
 public class LinkedHashSet_ {
     /**
      * ----------- LinkedHashSet ----------
-     * LinkedHashSet - is a class implementing to Set interface.
+     * LinkedHashSet - exdens to HashSet
      * LinkedHashSet internally uses LinkedHashMap's key part.
      * LinkedHashSet maintains the added items by insertion order.
      * LinkedHashSet allows only one null objects.

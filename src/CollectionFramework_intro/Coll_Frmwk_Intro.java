@@ -19,9 +19,9 @@ public class Coll_Frmwk_Intro {
 	 *                       > QUEUE > DEQUE
 	 *
 	 *
-	 * MAP > HashMap
+	 * MAP > HashMap > LinkedHashMap
 	 *     > HashTable
-	 *     > SortedMap> TreeMap
+	 *     > SortedMap > TreeMap
 	 *
 	 *
 

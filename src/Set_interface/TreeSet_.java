@@ -21,7 +21,7 @@ public class TreeSet_ {
         SortedSet<Integer> sorted = new TreeSet<>();
         sorted.add(5);
         sorted.add(7);
-       // sorted.add(null); // Will
+      //  sorted.add(null); // Will throw NullPointer exception
         System.out.println(sorted);
 
 

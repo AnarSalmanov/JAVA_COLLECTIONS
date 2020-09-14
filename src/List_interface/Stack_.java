@@ -8,7 +8,7 @@ public class Stack_ {
 
     /**
      * -------------------- Stack ----------------
-     * Stack is a class extends Vector class. (Vector implements to List interface)
+     * Stack is a class is a sub-class of  Vector class. (Vector implements to List interface)
      * Works based on LIFO, Last in First Out.
      */
 

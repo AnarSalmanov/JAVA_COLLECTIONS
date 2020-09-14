@@ -7,10 +7,10 @@ public class HashMap_ {
 
 
     /**
-     * ------------------------ HashMap class -------------------------------------------
+     * ------------------------ HashMap class ---------------------------------
      * HashMap class implements to Map interface.
      * Does not allow duplicate keys.
-     * Allows only 1 null key, any number null value.
+     * Allows only 1 null key, n number null value.
      * If try to add 2nd null key , then compiler will compile but will overridden the existing one.
      * Map's key is case sensitive.
      * If key is not there, will return null.
@@ -23,31 +23,41 @@ public class HashMap_ {
         items.put("beets", 2.48);
         items.put("potato", 4.70);
         items.put(null, 3.49);
-        items.put(null, 3.49);
+        items.put(null, 3.6);
         System.out.println(items);
 
-        // .size() method - returns length of items
+        /*   .size()
+         returns length of the map
+         */
         System.out.println(items.size());  // -> 4
 
-        // get(key) method - returns the value of specific key
+        /*        .get(key)
+         returns the value of certain key
+         returns null if key is not there.
+         */
         System.out.println(items.get("potato"));   //-> 4.70
-
-        // Returns null if key is not there
         System.out.println(items.get("tomato")); // -> null
 
-        // .isEmpty() method - returns boolean , true/false
+        /*        .isEmpty()
+        returns boolean , true/false
+         */
 
-        // .remove(key) method  - removes by key  / value pair
+        /*        .remove(key)
+         removes by key  / value pair
+         */
         items.remove("cheese");
         System.out.println(items);  // -> cheese removed with its value
 
-        // .containsKey(key) - checks wether Map contains certain key or not, returns boolean
+        /*        .containsKey(key)
+         checks whether Map contains certain key or not, returns boolean
+         */
         System.out.println(items.containsKey("cucumber")); // --> false
 
-        // .replace(key , newValue) - replaces current value of given key to the new one.
+        /*        .replace(key , newValue)
+         replaces current value of given key to the new one.
+         */
         items.replace("potato", 5.50);
         System.out.println(items.get("potato"));  //-> 5.50
-
         // increase/modify the value
         items.replace("potato", items.get("potato") + 2);
         System.out.println(items.get("potato")); // -> 7.50;

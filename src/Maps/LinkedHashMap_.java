@@ -7,10 +7,10 @@ public class LinkedHashMap_ {
 
     /**
      * ------------- LinkedHashMap class ------------------------
-     * LinkedHashMap class extends HashMap class (HashMap implements to Map interface)
+     * LinkedHashMap is a sub-class of HashMap class (HashMap implements to Map interface)
      * Does not allow duplicate keys.
      * Allows only 1 null key, any number null value.
-     * If try to add 2nd null key , then compiler will compile but will overridden the existing one.
+     * If try to add 2nd null key , then compiler will compile but will override the existing one.
      * Map's key is case sensitive.
      * If key is not there, will return null.
      * LinkedHashMap maintains object by keys insertion order.

@@ -5,19 +5,20 @@ public class List_intro {
 	                          
 	/**  ----------------------- List -----------------------------
 	 * List is Interface of Collection framework
-	 * ArrayList and LinkedList and Vector class implements to List interface.
+	 * ArrayList , LinkedList and Vector classes implements to List interface.
 	 * 
 	 * 
 	 *               ArrayList VS LinkedList VS Vector
 	 * They are pretty much same.
-	 * ArrayList implement only List Interface.Array based. Not thread safe.
-	 * Faster in get methods
+	 * ArrayList is a class implementing only List Interface.Array based. Not thread safe and synchronized.
+     * Accepts any number null and duplicate values.
+	 * Faster in get methods.
 	 *      
-	 * LinkedList implements List and DeQUe Interfaces. Not thread safe
+	 * LinkedList is a class implementing List and DeQUe Interfaces. Not thread safe and synchronized.
 	 * Faster in add and remove methods.(also have extra methods addFirst(),addLast(),getFirst(),getLast())
      * removeFirst(), removeLast()
 	 *      
-	 * Vector implements to List Interface .Array based. Thread safe, synchronized.
+	 * Vector is a class implementing to List Interface .Array based. Thread safe and synchronized.
 	 * Mostly used in multithreaded environment.
 	 * This is the slowest data structure.
 	 *      

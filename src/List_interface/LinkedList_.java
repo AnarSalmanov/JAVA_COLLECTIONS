@@ -8,12 +8,11 @@ public class LinkedList_ {
     /**
      * --------------------- LinkedList -----------------
      * LinkedList - is a class implementing to List and Deque interface.
-     * ArrayList internally uses Array.
+     * As ArrayList internally uses Array.
      * Maintains added elements by insertion order.
-     * Accepts n number null values and duplicates
-     * LinkedList is better in adding and removing.
+     * Accepts n number null values and n number duplicates
+     * LinkedList is better in adding and removing.Has 6 extra methods.
      * Non-tread safe and synchronized.
-     * <p>
      * NOTE: LinkedList<Integer> list2 = new LinkedList<>(); gives extra methods.
      * .addFirst()
      * .getFirst()

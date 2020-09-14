@@ -8,7 +8,7 @@ public class Streams_with_List_Set {
     /**
      * ---------------Streams-------------
      * Stream API is a new feature available from Java 8
-     * With stream we can perform aggregate operations on data returned from collections
+     * Using streams done aggregate operations on data returned from collections
      * classes.
      * The aggregate operation does not change the data structure itself.
      * ArrayLIst and Array etc not changed itself.
@@ -32,7 +32,7 @@ public class Streams_with_List_Set {
         // Sort the names and show in UpperCase using streams
         names.stream().sorted().map(n -> n.toUpperCase()).forEach(n -> System.out.print(n + " "));//ANAR AZERI SAMIR XEZER
 
-        // Sort unique values and store in new List
+        // Sort , unique values and store in new List
         List<Integer> num = Arrays.asList(1, 2, 3, 4, 5, 4, 2, 3, 7, 3, 9, 8, 9);
         List<Integer> sortedUnique = num.stream().distinct().sorted().collect(Collectors.toList());
         System.out.println(sortedUnique);

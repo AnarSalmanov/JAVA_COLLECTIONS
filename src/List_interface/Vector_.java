@@ -10,7 +10,7 @@ public class Vector_ {
      * Vector is also using Array internally.
      * Pretty much same with Arraylist and LinkedList.
      * Vector is thread safe and Synchronized.
-     * Vector allows null and duplicates values.
+     * Vector allows n number null and n number duplicates values.
      */
 
     public static void main(String[] args) {

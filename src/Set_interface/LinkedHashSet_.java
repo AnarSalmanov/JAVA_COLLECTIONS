@@ -4,9 +4,10 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class LinkedHashSet_ {
+
     /**
      * ----------- LinkedHashSet ----------
-     * LinkedHashSet - exdens to HashSet
+     * LinkedHashSet is a sub-class of HashSet
      * LinkedHashSet internally uses LinkedHashMap's key part.
      * LinkedHashSet maintains the added items by insertion order.
      * LinkedHashSet allows only one null objects.

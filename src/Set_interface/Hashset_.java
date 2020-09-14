@@ -8,7 +8,7 @@ import java.util.Set;
 public class Hashset_ {
 
     /**
-     * ------------- HashSet ------------
+     * ---------------  HashSet  ------------
      * HashSet - is a class implementing to Set interface.
      * HashSet internally uses HashMap's key part.
      * HashSet maintains the added items by random order.
